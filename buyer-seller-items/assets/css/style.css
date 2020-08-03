@@ -1,0 +1,618 @@
+  .chosen-container-multi .chosen-choices{
+    width: 100% !important;
+    padding: 1.1em !important;
+    transition: border-color 300ms !important;
+    border: solid 1px #bbb !important;
+    background: transparent !important;
+    font-size: 100% !important;
+    max-width: 100% !important;
+    margin: 8px 0 !important;
+    border-radius: 4px !important;
+  }
+
+  .chosen-container.chosen-container-multi {
+      width: 100% !important;
+  }
+
+/*LOGIN PAGE*/
+div#login_form_page {
+    width: 500px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+label{
+  margin: 0 !important;
+}
+
+div#login_form_page input#bs_email {
+     font-family: Ubuntu-Bold;
+     font-size: 15px;
+     color: #1b3815;
+     line-height: 1.2;
+     position: relative;
+     display: block;
+     width: 100%;
+     height: 55px;
+     background: #ebebeb;
+     border-radius: 27px;
+     padding: 0 35px 0 35px;
+     margin-bottom: 20px;
+     max-width: 100%;
+}
+
+div#login_form_page input#bs_password {
+   font-family: Ubuntu-Bold;
+  font-size: 15px;
+  color: #1b3815;
+  line-height: 1.2;
+
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 55px;
+  background: #ebebeb;
+  border-radius: 27px;
+  padding: 0 35px 0 35px;
+  max-width: 100%;
+}
+
+div#login_form_page input#bs_login {
+    display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #E31414 !important;
+  border-radius: 25px;
+
+  font-family: Ubuntu-Bold;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+
+.page-id-17 div#main {
+    background: gray;
+}
+
+
+div#login_form_page {
+    margin: 0 auto;
+   text-align: center;
+}
+span.login100-form-title {padding-bottom: 18px;display: block;color: black;font-weight: bold;text-transform: uppercase;}
+
+
+form#adminbarsearch {
+    display: none;
+}
+/**/
+/**/
+
+
+
+
+
+/*Profile Page*/
+.orders_infromaion {
+    text-align: center;
+    font-size: 21px !important;
+    /*margin-top: 45px !important;*/
+    line-height: 2px !important;
+}
+/**/
+
+
+
+input[type=text] , textarea , input[type=password] , input[type=file] , input[type=date] , input[type=email] , input[type=number]{
+
+  width: 100%;
+
+  padding: 12px 20px;
+
+  margin: 8px 0;
+
+  display: inline-block;
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+  box-sizing: border-box;
+  max-width: 100% !important;
+
+}
+.add_pro_ban a {
+    
+    color: black !important;
+}
+input[name="contact_form"]{
+background-color: #E31414 !important;
+}
+input[name="contact_form"]:hover{
+ background-color: orange !important; 
+}
+
+input#bs_registeration:hover , div#login_form_page input#bs_login:hover , .search.boxes input[type="submit"] , input#bs_update_profile:hover , input#bs_update_item:hover , input#bs_add_item:hover{
+    background-color: orange !important;
+}
+
+
+input[type=button] {
+
+  width: 100%;
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  padding: 14px 20px;
+
+  margin: 8px 0;
+
+  border: none;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+}
+
+
+
+input[type=button]:hover {
+
+  background-color: #45a049;
+
+}
+
+.buyer_seller_reg_form , .add_product_page{
+
+  border-radius: 5px;
+
+  background-color: #fff;
+
+  padding: 20px;
+
+}
+
+span#bs_error_message {
+
+    text-align: center;
+
+    width: 100%;
+
+    display: block;
+
+    font-weight: bold;
+
+    color: #c77d7d;
+
+}
+
+.menus_bs{
+
+    width: 80%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+
+} 
+
+.buyer_seller_reg_form , #add_product_item{
+width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 3px 20px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 3px 20px 0 rgba(0,0,0,0.1);
+    -o-box-shadow: 0 3px 20px 0 rgba(0,0,0,0.1);
+    -ms-box-shadow: 0 3px 20px 0 rgba(0,0,0,0.1);
+    margin: 0 auto;
+  }
+
+  input#bs_registeration , input#bs_update_profile , input#bs_add_item , input#bs_update_item{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #E31414 !important;
+    border-radius: 25px;
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.remove_img , div.img_del {
+    border: 1px solid white;
+    width: 150px;
+    margin: 6px;
+}
+
+.remove_img a , div.img_del a {
+    color: black !important;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.side_widget_buy article {
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.post-meta-thumb.widget img {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.user-meta-thumb {
+  width: 45%;
+     position: relative;
+    display: block;
+    overflow: hidden;
+    max-height: 350px;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top-left-radius: 27px;
+}
+.user-meta-thumb img {
+    height: 436px;
+}
+.user-content-container {
+    padding-top: 32px;
+    width: 55%;
+    /*background-color: #fff;
+    transition: .3s all ease-in-out;
+    box-shadow: 0px 15px 45px -9px rgba(0,0,0,.2);*/
+    overflow: hidden;
+    position: relative;
+    padding-left: 15px;
+    padding-bottom: 35px;
+    /*border-right: 3px solid gray;
+    border-bottom-right-radius: 27px;*/
+}
+.personal_informaion {
+    text-align: center;
+}
+.user-container {
+    display: flex;
+    margin-bottom: 43px !important;
+    background-color: #fff;
+    transition: .3s all ease-in-out;
+    box-shadow: 0px 15px 45px -9px rgba(0,0,0,.2);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.user-meta-thumb img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.user-meta.user-meta-one span {
+    color: black;
+    
+    padding-right: 4px;
+    display: inherit;
+    line-height: 30p
+
+}
+.user-content-container h2 {
+    font-size: 28px;
+    margin-top: 12px;
+    margin-bottom: 14px;
+    line-height: 100%!important;
+    font-family: "Raleway";
+    color: black;
+        text-transform: uppercase;
+    font-size: 60px;
+}
+
+.user-meta.user-meta-one span:last-child {
+    border: none;
+}
+.user-meta.user-meta-two span a{
+  color: white !important;
+}
+.user-meta.user-meta-two span {
+    text-transform: uppercase;
+    border-width: 0;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 0 12px;
+    line-height: 32px;
+    background-color: #E31414 !important;
+    transition: .3s all ease-in-out;
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    line-height: 30px;
+    background-color: #E31414 !important;
+    color: white;
+    /* margin-right: 10px; */
+    font-size: 13px!important;
+    margin-bottom: 12px;
+    border-radius: 100px;
+    border: 3px solid #fff;
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,.1);
+    font-weight: 700;
+}
+
+.user-meta.user-meta-two {
+    margin-top: 30px;
+}
+
+.orders_infromaion {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Raleway";
+    color: black;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 51px;
+}
+.orders_infromaion .orders h5 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+}
+
+input#bs_update_item {
+    z-index: 0;
+}
+input#bs_add_item {
+    z-index: 0;
+}
+
+input#bs_registeration {
+    z-index: 0;
+}
+.search.boxes input {
+    width: 32%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    max-width: 100% !important;
+}
+
+.search.boxes input[type="submit"] {
+    padding: 15px 20px !important;
+}
+
+.search.boxes select {
+    padding: 9px 27px 10px 18px !important;
+}
+
+input.send_request {
+    background: #E31414 !important;
+    width: 100%;
+    border-radius: 55px !important;
+    padding: 16px 32px !important;
+}
+
+input.send_request:hover {
+    background: orange !important;
+}
+
+
+form .loader {
+  border: 16px solid #ffffff;
+    border-radius: 50%;
+    border-top: 16px solid #57b846;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  background-color: white;
+  margin-top: -64px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.search.boxes input[type="submit"] {
+    background-color: #E31414 !important
+}
+
+
+
+/*********/
+/* responsive */
+input#contact_form {
+    background-color: #E31414 !important;
+}
+.post-meta.post-meta-two span {
+    background-color: #E31414 !important;
+}
+
+.post-meta.post-meta-two span a {
+    color: #fff;
+}
+
+.masonry2 article .post-content-container span {
+    color: #000 !important;
+}
+
+.masonry2 article .post-content-container h2 {
+    color: #000;
+}
+
+@media screen and (max-width: 1024px){
+  .post-meta.post-meta-two {
+    display: block !important;
+    text-align: center;
+}
+}
+@media screen and (max-width: 768px){
+
+.user-container {
+    display: block;
+}
+
+.orders_infromaion .orders h5 {
+    font-size: 14px !important;
+}
+
+.user-meta-thumb {
+    width: 100%;
+}
+
+.user-content-container {
+    width: 100%;
+}
+
+.blog-style-masonry article{
+    width: 100% !important;
+}
+.content-with-sidebar-left.blog-page-list .post-content-container {
+    height: 207px !important;
+}
+
+  /*.orders_infromaion .orders h5 {
+    font-size: 20px;
+}*/
+  .contact_fomr.add_product_page {
+    width: 100%;
+}
+
+.contact_fomr.add_product_page h4 {
+    text-align: center;
+}
+  #content.content-with-sidebar-left {
+    width: 100% !important;
+    margin-top: 30px;
+}
+.buyer_seller_reg_form , #add_product_item{
+  width: 100% !important;
+}
+.buyer_seller_reg_form.send_request {
+    margin-bottom: 33px !important;
+}
+
+.search.boxes input {
+    width: 48% !important;
+}
+
+.search.boxes select {
+    width: 48% !important;
+}
+
+.search.boxes input[type="submit"] {
+    margin-top: 0 !important;
+    background-color: #E31414 !important
+}
+
+
+
+}
+@media screen and (max-width: 480px){
+  .user-meta-thumb {
+    width: 100%;
+}
+
+.user-content-container {
+    width: 100%;
+}
+
+.user-container {
+    display: block;
+}
+
+.orders_infromaion {margin-top: 20px !important;display: block !important;}
+
+/*.orders_infromaion .orders h5 {
+    margin-bottom: 20px;
+}*/
+
+.orders_infromaion span b {margin-bottom: 40px !important;}
+
+.orders {
+    padding-bottom: 20px;
+}
+
+.search.boxes {
+    text-align: center;
+}
+
+.search.boxes input {
+    width: 100% !important;
+}
+
+.search.boxes select {
+    width: 100% !important;
+}
+.search.boxes input[type="submit"] {
+    margin-top: 10px !important;
+}
+
+
+}
+
+
