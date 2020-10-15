@@ -10,9 +10,9 @@
 
   Version:       1.1.1
 
-  Author:        Usman Iqbal
+  Author:        M Mamoon Tariq
 
-  Author URI:    http://usmaniqbal.com
+  Author URI:    http://github.com/MamoonTariq
 
 */
 
